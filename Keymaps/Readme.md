@@ -5,6 +5,7 @@ Since lily is a split keyboard its and both the split pcb's have a pro micro any
 But it is common \ recommended to have the left one as the master.
 
 1.Go to this link [QMK](https://config.qmk.fm/).
+
 `
 	a. Choose  the lily58/rev1 as the keyboard from the drop down menu
 
