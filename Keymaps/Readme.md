@@ -21,11 +21,11 @@ But it is common \ recommended to have the left one as the master.
 
 ```
 You will need to install 
-	a. MSYS2
-	b. Git
-	c. Python 3x
-	d. QMK CLI
-	e. Download QMK tool box
+	a. [MSYS2](http://www.msys2.org/)
+	b. [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+	c. [Python 3x](https://www.python.org/downloads/)
+	d. [QMK CLI](https://qmk.fm/toolbox/)
+	e. [Download QMK tool box](https://qmk.fm/toolbox/)
 ```
 
 Follow the installation instructions on the MSYS2 homepage.
@@ -40,5 +40,4 @@ Then, run the following:
 pacman --needed --noconfirm --disable-download-timeout -S git mingw-w64-x86_64-toolchain mingw-w64-x86_64-python3-pip
 python3 -m pip install qmk
 ```
-
 
