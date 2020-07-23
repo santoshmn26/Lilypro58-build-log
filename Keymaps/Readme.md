@@ -17,4 +17,28 @@ But it is common \ recommended to have the left one as the master.
 ```
 
 
-2. 
+2. Setting up QMK environment
+
+```
+You will need to install 
+	a. MSYS2
+	b. Git
+	c. Python 3x
+	d. QMK CLI
+	e. Download QMK tool box
+```
+
+Follow the installation instructions on the MSYS2 homepage.
+
+Close any open MSYS terminals and open a new MinGW 64-bit terminal.
+
+> NOTE: This is not the same as the MSYS terminal that opens when installation is completed.
+
+Then, run the following:
+
+```
+pacman --needed --noconfirm --disable-download-timeout -S git mingw-w64-x86_64-toolchain mingw-w64-x86_64-python3-pip
+python3 -m pip install qmk
+```
+
+
