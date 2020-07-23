@@ -14,7 +14,6 @@ But it is common \ recommended to have the left one as the master.
 	c. Once you are happy with the arrengement of the keys click on compile on the top right corner.
 
 	d. Next click on the download symbol to download Export the QMK json file.
-	
 ```
 
 
