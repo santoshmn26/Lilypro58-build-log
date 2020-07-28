@@ -1,19 +1,19 @@
 # Flashing lily
 
-Since lily is a split keyboard its and both the split pcb's have a pro micro any one of them can become a mster.
+Since lily is a split keyboard its and both the split PCBs have a pro micro any one of them can become a master.
 
 But it is common \ recommended to have the left one as the master.
 
-1.Go to this link [QMK](https://config.qmk.fm/).
+1. Go to this link [QMK](https://config.qmk.fm/).
 
 ```
-	a. Choose  the lily58/rev1 as the keyboard from the drop down menu
+	a. Choose  the lily58/rev1 as the keyboard from the drop-down menu
 
 	b. Just drag and drop to re-arrange the keys as desired.
 
-	c. Once you are happy with the arrengement of the keys click on compile on the top right corner.
+	c. Once you are happy with the arrangement of the keys click on compile on the top right corner.
 
-	d. Next click on the download symbol to Export the QMK json file.
+	d. Next click on the download symbol to Export the QMK JSON file.
 ```
 
 
@@ -30,22 +30,22 @@ You will need to install
 
 [QMK CLI](https://beta.docs.qmk.fm/tutorial/newbs_getting_started)
 
-[Download QMK tool box](https://qmk.fm/toolbox/)
+[QMK tool box](https://qmk.fm/toolbox/)
 
 
 Follow the installation instructions on the MSYS2 homepage.
 
 Close any open MSYS terminals and open a new MinGW 64-bit terminal.
 
-> NOTE: This is not the same as the MSYS terminal that opens when installation is completed.
+> NOTE: This is not the same as the MSYS terminal that opens when the installation is completed.
 
 Then, run the following:
 
 > Note: You can create a new profile or just edit some existing profiles.
 
-Once all the environment is setup navigate to the folder 
+Once all the environment is set up navigate to the folder 
 
-Navigate to the folder where you have downloaded the json file from qmk config
+Navigate to the folder where you have downloaded the JSON file from qmk config
 
 and execute the command
 
@@ -53,31 +53,30 @@ and execute the command
 qmk json2c <json_file>
 ```
 
-This generate a output with the keymaps configurations copy this to the clip board
+This generates an output with the keymaps configurations copy this to the clipboard
 
-Next navigate to 
+Next, navigate to 
 
 ```
 qmk_firmware/keyboards/lily58/keymaps/default
 ```
 
-Now open the file keymap.c and replace the keymap configurations with the output new keymaps copied to the clip board
+Now open the file keymap.c and replace the keymap configurations with the output new keymaps copied to the clipboard
 
-Next save the file and exit
+Next, save the file and exit
 
-Next execute the following commands to generate a hex file 
+Next, execute the following commands to generate a hex file 
 
 ```
 qmk compile -km default
 qmk compile -kb default
 ```
 
-Next open the qmk toolbox
+Next, open the qmk toolbox
 
 ```
 1. Browse to the hex file location 
 2. Select the pro micro used in the keyboard it is usually atmega32u4
-3. Click on the reset button on the left pcb (Master side)
+3. Click on the reset button on the left PCB (Master side)
 4. Click on Flash
 ```
-
