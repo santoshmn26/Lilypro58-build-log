@@ -36,4 +36,9 @@ My build:
 
 ![Layer 1](https://github.com/santoshmn26/Lilypro58-build-log/blob/master/Pictures/layer_1.PNG)
 
+## PCB
+![PCB](https://github.com/santoshmn26/Lilypro58-build-log/blob/master/Pictures/pcb.PNG)
+
+Both left and right PCB's are identical and the components and be soldered on either sides.
+
 
