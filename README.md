@@ -8,8 +8,8 @@ Components required
 | 3. | Reset switches | 2 | Littlekeyboards |
 | 4. | SMD's | 58 | Littlekeyboards |
 | 5. | Hotswap Sockets | 58 | Littlekeyboards |
-| 6. | OLED screen (Optional) | 2 | Littlekeyboards, amazon |
-| 7. | Pro Micro | 2 | Littlekeyboards, amazon | 
+| 6. | OLED screen (Optional) | 2 | Littlekeyboards |
+| 7. | Pro Micro | 2 | Littlekeyboards | 
 | 8. | Switches | 58 | MK ultra keyboards |
 | 9. | Keycaps | 58 | MK ultra keyboards |
 | 10. | TRRS cable | 1 | amazon |
@@ -22,3 +22,9 @@ My build:
 | Switches | Kailh low profile (Mix: brown and white) |
 | keycaps | Kailh mkb, and Kailh choc keycaps |
 | PCB | Pro hotswap, Black |
+
+## Layers:
+
+### Layer 0:
+
+![Layer 0](https://github.com/santoshmn26/Lilypro58-build-log/blob/master/Pictures/layer_0.PNG)
