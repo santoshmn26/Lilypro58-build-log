@@ -1,6 +1,6 @@
 # Flashing lily58 Pro
 
-Since lily is a split keyboard its and both the split PCBs have a pro micro any one of them can become a master.
+Since lily is a split keyboard both half of the PCB have a pro micro and any one of them can become a master.
 
 But it is common \ recommended to have the left one as the master.
 
@@ -43,7 +43,7 @@ Then, run the following:
 
 > Note: You can create a new profile or just edit some existing profiles.
 
-Once all the environment is set up navigate to the folder 
+Once all the environment 
 
 Navigate to the folder where you have downloaded the JSON file from qmk config
 
@@ -62,6 +62,8 @@ qmk_firmware/keyboards/lily58/keymaps/default
 ```
 
 Now open the file keymap.c and replace the keymap configurations with the output new keymaps copied to the clipboard
+
+repplace the const variable [here!][https://github.com/santoshmn26/Lilypro58-build-log/blob/master/Keymaps/default/keymap.c#L30].
 
 Next, save the file and exit
 
