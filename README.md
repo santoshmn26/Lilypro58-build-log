@@ -23,6 +23,9 @@ My build:
 | keycaps | Kailh mkb, and Kailh choc keycaps |
 | PCB | Pro hotswap, Black |
 
+
+![Layer 1](https://github.com/santoshmn26/Lilypro58-build-log/blob/master/Pictures/lily.jpg)
+
 ## Layers:
 
 ### Layer 0:
