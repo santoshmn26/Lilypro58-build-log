@@ -36,6 +36,4 @@ My build:
 
 ![Layer 1](https://github.com/santoshmn26/Lilypro58-build-log/blob/master/Pictures/layer_1.PNG)
 
-![Layer 1](https://github.com/santoshmn26/Lilypro58-build-log/blob/master/Pictures/lily.jpg)
-
 
