@@ -80,3 +80,6 @@ Next, open the qmk toolbox
 3. Click on the reset button on the left PCB (Master side)
 4. Click on Flash
 ```
+
+
+## All Done!! Enjoy your lily!
