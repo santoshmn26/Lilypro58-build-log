@@ -28,3 +28,12 @@ My build:
 ### Layer 0:
 
 ![Layer 0](https://github.com/santoshmn26/Lilypro58-build-log/blob/master/Pictures/layer_0.PNG)
+
+### Layer 1:
+
+![Layer 1](https://github.com/santoshmn26/Lilypro58-build-log/blob/master/Pictures/layer_1.PNG)
+
+
+
+
+
