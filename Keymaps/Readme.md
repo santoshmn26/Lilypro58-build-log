@@ -1,4 +1,4 @@
-# Flashing lily
+# Flashing lily58 Pro
 
 Since lily is a split keyboard its and both the split PCBs have a pro micro any one of them can become a master.
 
