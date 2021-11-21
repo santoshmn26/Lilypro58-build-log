@@ -39,6 +39,6 @@ My build:
 ## PCB
 ![PCB](https://github.com/santoshmn26/Lilypro58-build-log/blob/master/Pictures/pcb.PNG)
 
-Both left and right PCB's are identical and the components and be soldered on either sides.
+Both left and right PCBs are identical and the components and be soldered on either sides.
 
 
